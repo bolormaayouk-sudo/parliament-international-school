@@ -346,7 +346,7 @@ With pride and gratitude,
     views: 1420,
     likes: 189,
     comments: 22,
-    image: '/picture1.jpg',
+    image: '/chairman.jpg',
     featured: false,
   },
   {
