@@ -87,7 +87,7 @@ export default function LoginPage() {
             {[
               { val: '2,400+', label: 'Students' },
               { val: '98%', label: 'Uni. Placement' },
-              { val: '8+', label: 'Years of Excellence' }
+              { val: '45+', label: 'Years of Excellence' }
             ].map(s => (
               <div key={s.label} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/10">
                 <div className="text-2xl font-black text-white">{s.val}</div>

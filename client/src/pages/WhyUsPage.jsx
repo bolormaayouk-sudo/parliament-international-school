@@ -4,9 +4,9 @@ import Footer from '../components/Footer';
 
 const stats = [
   { value: '98%', label: 'University Placement Rate', icon: 'school' },
-  { value: '8+', label: 'Years of Excellence', icon: 'history_edu' },
+  { value: '45+', label: 'Years of Excellence', icon: 'history_edu' },
   { value: '2,400+', label: 'Current Students', icon: 'groups' },
-  { value: '39+', label: 'Expert Faculty Members', icon: 'psychology' },
+  { value: '180+', label: 'Expert Faculty Members', icon: 'psychology' },
 ];
 
 const reasons = [
@@ -93,7 +93,7 @@ export default function WhyUsPage() {
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <span className="inline-block px-4 py-1.5 rounded-full bg-accent/20 border border-accent/40 text-accent text-xs font-bold uppercase tracking-widest mb-6">Why Choose Us</span>
           <h1 className="text-white text-5xl md:text-6xl font-black leading-tight mb-6">
-            Parliament International School <span className="text-accent">Difference</span>
+            The Parliament International School <span className="text-accent">Difference</span>
           </h1>
           <p className="text-blue-100 text-xl font-light max-w-2xl mx-auto">
             Not every school is equal. Discover what separates a good education from a life-changing one.
@@ -118,7 +118,7 @@ export default function WhyUsPage() {
       <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">Six Reasons Parents Choose Parliament International School</h2>
-          <p className="text-slate-500 text-lg">Our pillars of excellence, built over 8+ years of shaping future leaders.</p>
+          <p className="text-slate-500 text-lg">Our pillars of excellence, built over 45 years of shaping future leaders.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {reasons.map((r, i) => (
@@ -167,7 +167,7 @@ export default function WhyUsPage() {
             Apply Now <span className="material-symbols-outlined">arrow_forward</span>
           </Link>
           <Link to="/admissions" className="h-14 px-8 bg-white/10 border border-white/30 text-white rounded-xl font-bold hover:bg-white/20 transition-all flex items-center justify-center">
-            Book a School Tour
+            Book a Campus Tour
           </Link>
         </div>
       </section>

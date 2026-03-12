@@ -13,7 +13,7 @@ export default function Footer() {
               <div className="size-10 hidden bg-primary rounded-lg items-center justify-center">
                 <span className="material-symbols-outlined text-white text-2xl">school</span>
               </div>
-              {/* <h2 className="text-xl font-black tracking-tight leading-tight">Parliament<br/><span className="text-primary text-base font-bold">International School</span></h2>*/}
+              <h2 className="text-xl font-black tracking-tight leading-tight">Parliament<br/><span className="text-primary text-base font-bold">International School</span></h2>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
               Dedicated to fostering an environment where every student can achieve excellence and become a compassionate global leader.
@@ -54,7 +54,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4 text-slate-400 text-sm">
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-primary text-[20px] mt-0.5">location_on</span>
-                <span>1 Parliament International School Way,<br/>Innovation District, ABUJA</span>
+                <span>1 Elite Academy Way,<br/>Innovation District, NY 10001</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-primary text-[20px]">call</span>

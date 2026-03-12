@@ -46,7 +46,9 @@ export default function Navbar() {
           <div className="size-10 hidden items-center justify-center bg-primary text-white rounded-xl shadow-md group-hover:scale-105 transition-transform">
             <span className="material-symbols-outlined text-xl">school</span>
           </div>
-          
+          <span className="text-lg font-black tracking-tight text-slate-900 group-hover:text-primary transition-colors leading-tight">
+            Parliament<br/><span className="text-primary text-sm font-bold">International School</span>
+          </span>
         </Link>
 
         {/* Desktop Nav */}
@@ -123,7 +125,17 @@ export default function Navbar() {
 
         {/* Drawer Header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-slate-100 flex-shrink-0">
-          
+          <div className="flex items-center gap-2.5">
+            <img src="/logo.png" alt="Parliament International School Logo"
+              className="h-8 w-auto object-contain"
+              onError={e => { e.target.style.display='none'; e.target.nextSibling.style.display='flex'; }} />
+            <div className="size-8 hidden bg-primary rounded-lg items-center justify-center">
+              <span className="material-symbols-outlined text-white text-lg">school</span>
+            </div>
+            <span className="font-black text-slate-900 text-sm leading-tight">
+              Parliament<br/><span className="text-primary font-bold text-xs">International School</span>
+            </span>
+          </div>
           <button onClick={() => setMenuOpen(false)}
             className="size-8 flex items-center justify-center rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 transition-colors">
             <span className="material-symbols-outlined text-[20px]">close</span>
