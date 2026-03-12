@@ -54,7 +54,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4 text-slate-400 text-sm">
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-primary text-[20px] mt-0.5">location_on</span>
-                <span>1 Elite Academy Way,<br/>Innovation District, NY 10001</span>
+                <span>1 Parliament International School,<br/>Innovation District, Abuja</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-primary text-[20px]">call</span>
